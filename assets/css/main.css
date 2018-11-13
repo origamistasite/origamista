@@ -1,0 +1,35 @@
+body {
+	margin: 0px;
+	padding: 0px 15px;
+	border: 0px;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: Georgia, serif;
+	font-size: 62.5%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+/*---------------------------------------------*/
+
+a, div, h1, h2, h3, h4, h5, h6, img, li, p, span, strong, ul {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#logo {
+	float: left;
+	width: 32px;
+	height: 40px;
+	background-image: url(../images/Origamista-Logo.png);
+}
