@@ -1,0 +1,41 @@
+@media screen and (max-width:500px) {
+	#nav {
+		position: relative;
+	}
+
+	#nav label {
+		display: inline-block;
+		cursor: pointer;
+		width: 32px;
+		height: 40px;
+		background: url('../images/burger.png');
+		position: absolute;
+		right: 0px;
+	}
+
+	#nav ul {
+		text-align: center;
+		position: absolute;
+		right: 0px;
+		top: 40px;
+		width: 125%;
+		/*padding-left: 15px;*/
+		padding-bottom: 10px;
+		background: white;
+		/*border-left: 1px solid #dadada;*/
+		display: none;
+		border-bottom: 1px solid #dadada;
+	}
+
+	#nav ul li {
+		margin: 0px;
+		display: block;
+	}
+
+	#toggle:checked ~ ul {
+		display: block;
+	}
+
+	#toggle:checked ~ label {
+		background: url('../images/burger-x.png');
+	}

@@ -39,14 +39,21 @@
 
 <body>
 	<header>
-		<a id="logo" title="Back to Home page" href="/"></a>
-		<nav>
-			<ul>
-				<li><a class="current" href="/">Home</a></li>
-				<li><a href="/instructions">Instructions</a></li>
-				<li><a href="/about">About</a></li>
-			</ul>
-		</nav>
+		<div id="header-container" class="container">
+			<div id="logo">
+				<a title="Back to Home page" href="/"></a>
+			</div>
+			<nav>
+				<div id="nav">
+					<input type="checkbox" id="toggle"><label for="toggle"></label>
+					<ul>
+						<li><a id="current" href="/">Home</a></li><li>
+						<a href="/instructions">Instructions</a></li><li>
+						<a href="/about">About</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
 	</header>
 	<main>
 		
